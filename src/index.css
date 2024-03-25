@@ -1,0 +1,92 @@
+.contenedor-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.public-sans-xd {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 252;
+  font-style: normal;
+}
+.contenedor-landing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.botones>button{
+  height: 40px;
+  width: 180px;
+
+  border-radius: 20px;
+  border-style: none;
+}
+.contenedor-api{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 30px;
+  border: 2px solid gray;
+}
+.tabla-api{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.buscador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.oper-buscador{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.oper-buscador>button{
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  border-style: none;
+}
+.oper-buscador>input{
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  border-style: none;
+}
+.titulo-tbl-moneda{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+.titulo-tbl-valor{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: green;
+}
+td{
+  border-radius: 20px;
+  border: 2px solid gray;
+  text-align: center;
+}
